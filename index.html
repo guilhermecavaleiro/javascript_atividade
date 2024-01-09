@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador Numérico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validador numérico EBAC</h1>
+        <h2>Preencha o formulário abaixo</h2>
+        <form id="form-entrada-numeros">
+            <input id="campo-a" type="number" placeholder="Campo A - Digite o menor valor" required>
+            <input id="campo-b" type="number" placeholder="Campo B - Digite o maior valor" required>
+            <button id="btn-disparar-form">Validar</button>
+        </form>
+        <p class="sucess-message"></p>
+        <p class="error-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
